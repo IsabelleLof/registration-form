@@ -9,11 +9,11 @@ img {
 
 .container {
   display: grid;
-  /*justify-content: center;*/
-  align-items: center;
-  grid-auto-flow: column;
-  height: 500px;
-  margin: 40px;
+  justify-content: center;
+  /* align-items: center; */
+  grid-template-columns: 50% 50%;
+  /* height: 500px */
+  /*margin: 40px; */
 }
 
 header {
@@ -34,7 +34,7 @@ form {
 .signup-container {
   display: grid;
   grid-template-columns: 200px 200px;
-  /* gap: 30px; */
+  gap: 30px;
   justify-content: center;
   /* background-color: black; */
   /* color: white; */
@@ -127,11 +127,11 @@ body {
 
 form {
   background-color: #fff;
-  position: absolute;
-  width: 320px;
+  /* position: absolute; */
+  width: 320px px;
   height: 270px;
   padding: 10px 5px 20px 5px;
-  margin: -10vh 850px;
+  /* margin: -10vh 850px; */
   border-radius: 5px;
   box-shadow: 5px 5px 6px -7px;
 }
@@ -148,7 +148,7 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
-
+/*
 .f-pws {
   display: block;
   width: 200px;
@@ -157,6 +157,7 @@ button {
   font-family: "Segoe UI";
   font-weight: 400;
 }
+*/
 
 .line {
   border-top: 1px solid #222;
@@ -186,16 +187,20 @@ button {
   font-size: 13px;
 }
 
+/*
 .f-container {
   width: 350px;
   margin-left: 300px;
   margin-top: 30vh;
   font-family: "Segoe UI", Roboto, "San Francisco";
 }
+*/
 
+/*
 .f-container img {
   width: 250px;
 }
+*/
 
 p {
   font-size: 20px;
